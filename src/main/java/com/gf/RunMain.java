@@ -25,6 +25,8 @@ public class RunMain {
         List<String> fileList = FileUtils.readLines(new File(PathUtils.getCurrentWorkPath() + "del_files.txt"), "utf8");
         for (int i = 0; i < fileList.size(); i++) {
             String path = fileList.get(i);
+            if (path.indexOf("#") == 0)
+                return;
             File file = new File(path);
             System.out.println("**********正在处理：" + FilenameUtils.getName(path));
             deleteFile(file, prefix);

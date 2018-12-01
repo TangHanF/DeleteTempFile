@@ -1,2 +1,3 @@
 /Volumes/扩展存储/SVN/mutualFund_rep_公安厅互助金系统(新)/src/trunk/mutualFund_Assistant2.0
 /Volumes/扩展存储/SVN/mutualFund_rep_公安厅互助金系统(新)/src/trunk/mutualFund_Assistant3.0
+#/Volumes/扩展存储/SVN/cps_rep_柜面预受理系统/Src/QRCB-CPS-For-CSharp
